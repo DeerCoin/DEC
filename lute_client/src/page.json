@@ -1,0 +1,41 @@
+{
+	"index|plusReady": "./src/main.js",
+	"king.login|plusReady": "./src/page/king/login.js",
+	"king.findPw|plusReady": "./src/page/king/findPw.js",
+	"king.reg1|plusReady": "./src/page/king/reg1.js",
+	"king.reg2|plusReady": "./src/page/king/reg2.js",
+	"king.reg3|plusReady": "./src/page/king/reg3.js",
+
+	"king.home.home|plusReady|mui": "./src/page/king/home/home.js",
+	"king.market.market|plusReady": "./src/page/king/market/market.js",
+	"king.application.application|plusReady": "./src/page/king/application/application.js",
+	"king.application.youka|plusReady": "./src/page/king/application/youka.js",
+	"king.application.phone|plusReady": "./src/page/king/application/phone.js",
+	"king.application.flow|plusReady": "./src/page/king/application/flow.js",
+	"king.mine.mine|plusReady": "./src/page/king/mine/mine.js",
+
+	"king.home.homeDetail|plusReady|mui": "./src/page/king/home/homeDetail.js",
+	"king.home.myFriends|plusReady|mui": "./src/page/king/home/myFriends.js",
+	"king.home.Lcc|plusReady|mui": "./src/page/king/home/Lcc.js",
+	"king.home.duihuankuangji|plusReady|mui": "./src/page/king/home/duihuankuangji.js",
+	"king.home.trendsMoney|plusReady|mui": "./src/page/king/home/trendsMoney.js",
+	"king.home.intelMoney|plusReady|mui": "./src/page/king/home/intelMoney.js",
+	"king.home.accountSafe|plusReady|mui": "./src/page/king/home/accountSafe.js",
+	"king.home.speadEWM|plusReady|mui": "./src/page/king/home/speadEWM.js",
+	"king.home.certification|plusReady|mui": "./src/page/king/home/certification.js",
+	"king.home.capitalRecord|plusReady|mui": "./src/page/king/home/capitalRecord.js",
+	"king.home.bindAccount|plusReady": "./src/page/king/home/bindAccount.js",
+	"king.home.currencyChange|plusReady": "./src/page/king/home/currencyChange.js",
+	"king.home.download|plusReady|mui": "./src/page/king/home/download.js",
+	"king.home.noticeInfo|plusReady|mui": "./src/page/king/home/noticeInfo.js",
+
+	"king.market.bbjiaoyi|plusReady": "./src/page/king/market/bbjiaoyi.js",
+	"king.market.zhangdiefu|plusReady": "./src/page/king/market/zhangdiefu.js",
+	"king.mine_minezijin|plusReady": "./src/page/king/mine/minezijin.js",
+	"king.mine_zijinchongzhi|plusReady": "./src/page/king/mine/zijinchongzhi.js",
+	"king.mine_jilu|plusReady": "./src/page/king/mine/jilu.js",
+	"king.mine_huzhuan|plusReady": "./src/page/king/mine/huzhuan.js"
+
+
+
+}

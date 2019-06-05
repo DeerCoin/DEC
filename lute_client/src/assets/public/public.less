@@ -1,0 +1,102 @@
+@vertical: middle;  
+
+@auto:{
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;   
+};
+
+@color: #292929;      
+
+@fix_bottom: {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+};
+@incenter:{
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+};
+@btn:{
+    width: 6.8rem;
+    height: 0.94rem;
+    display: block;
+    margin: 0 auto;
+    border-radius: 0.46rem;
+    font-size: 0.3rem;
+    border: none;
+};
+@mask:{
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+};
+@closeBtn:{
+    position: absolute;
+    top: 0.1rem;
+    right: 0.1rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    color: #cccccc;
+};
+@background:{
+	background: #362b61;
+};
+@box:{
+	background: #7904db;
+};
+@border:{
+	border-color: #cc9644;
+};
+@font-color:{
+	color: #cc9644;
+};
+//背景渐变-从上到下
+@linear:{  
+    background: #fd9a56; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#fd9a56, #ec5a38); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#fd9a56, #ec5a38); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#fd9a56, #ec5a38); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#fd9a56, #ec5a38); /* Standard syntax */
+};
+//背景渐变-对角线
+@diagonal:{
+    background: #ec782f; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left top, #ec782f, #f6c453); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #ec782f, #f6c453); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #ec782f, #f6c453); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #ec782f, #f6c453); /* Standard syntax */
+};
+//背景渐变-从左到右
+@leftToRight: {
+    background: #c09f6d; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(left, #c09f6d , #9c6e38); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #c09f6d, #9c6e38); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #c09f6d, #9c6e38); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #c09f6d , #9c6e38); /* Standard syntax */
+};
+
+.van-nav-bar .van-icon{
+	color: #000000 !important;
+}
+// 大按钮
+.logBtn{
+	width: 6.22rem;
+	height: 0.87rem;
+	line-height: 0.87rem;
+	border-radius: 0.4rem;
+	margin: 0 auto;
+	margin-top: 0.67rem;
+	display: block;
+	color: #fff;
+	@leftToRight();
+}
+
